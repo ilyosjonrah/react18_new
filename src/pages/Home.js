@@ -13,6 +13,7 @@ const Home =  () => {
             {
                 data.map((data,index) => (
                     <p key={data.id}>{data.title}</p>
+                    
                 ))
             }
         </>
