@@ -5,7 +5,7 @@ const Home =  () => {
   
     const [data, setData] = React.useState([]);
     fetch("https://jsonplaceholder.typicode.com/todos")
-    .then((res) => res.json())
+    .then((res) => res.json())    
     .then((data) => setData(data));
     // console.log(data);
     return(
