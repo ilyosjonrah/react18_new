@@ -3,7 +3,7 @@ import * as React from 'react';
 
 const Home =  () => {
   
-    const [data, setData] = React.useState([]);
+    const [data, setData] = React.useState([]);   
     fetch("https://jsonplaceholder.typicode.com/todos")
     .then((res) => res.json())    
     .then((data) => setData(data));
@@ -13,7 +13,7 @@ const Home =  () => {
             {
                 data.map((data,index) => (
                     <p key={data.id}>{data.title}</p>
-                    
+
                 ))
             }
         </>
