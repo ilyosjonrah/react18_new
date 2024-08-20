@@ -1,15 +1,13 @@
-import * as React from 'react';
-
-import Main from './components/Main';
+import React from 'react';
+// import FlappyBirdGame from './FlappyBirdGame';
 
 const App = () => {
-
-  return (
-    <>
-      <Main />
-    </>
-  )
-}
-
+    return (
+        <div>
+            {/* <FlappyBirdGame /> */}
+            App!!!!!!!!      
+        </div>
+    );
+};
 
 export default App;
