@@ -5,7 +5,7 @@ const App = () => {
     return (
         <div>
             {/* <FlappyBirdGame /> */}
-            App!!!!!!!!      
+            App work!!!! 
         </div>
     );
 };
